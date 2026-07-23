@@ -67,8 +67,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -102,7 +100,6 @@ out/
 
 sqlite.db
 userData/
-.env.local
 .idea/
 
 # Claude Code
@@ -119,3 +116,7 @@ storybook-static/
 eval-results/
 benchmark-results/
 benchmarks/code-explorer/repos/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

@@ -22,8 +22,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "npm run build -- --watch",
+    "build": "node init && tsup src/index.ts --format cjs,esm --dts",
+    "dev": "node init && npm run build -- --watch",
     "lint": "eslint . --max-warnings 0",
     "prepublishOnly": "npm run build"
   },
